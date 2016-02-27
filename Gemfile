@@ -23,6 +23,10 @@ gem 'jbuilder'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  # RSpec for specs
+  gem 'rspec-rails'
+  # Generate random test data
+  gem 'factory_girl_rails'
 end
 
 group :development do
@@ -37,9 +41,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Web Scraper
 gem 'nokogiri'
-
-# Webserver
-gem 'puma'
 
 # Google Auth and API
 gem 'google_drive'
